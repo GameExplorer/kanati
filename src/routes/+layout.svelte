@@ -1,74 +1,98 @@
 <script>
   import "../app.css";
 </script>
-<!-- vrh strani -->
+<!-- vrh strani + logo -->
+<div class="px-16">
+  <div class="flex flex-wrap">
+    <img class="object-contain w-40 h-36"
+      src="src/images/logo.png" alt="logo" />
+  </div>
+</div>
 
 <!-- trg-->
-<div class="bg-black py-10 px-4 md:flex md:flex-col md:items-start">
+<div class="bg-black py-10 px-16 md:flex md:flex-col md:items-start">
   <div class="text-white text-left mb-6">
-    <p class="font-georgia text-xl md:text-3xl lg:text-4xl">Trg kaže pot sprememb,
-      odločitev in priložnosti. Odnosi
-      in sodelovanja so bistvo rasti
+    <p class="font-georgia text-2xl md:text-3xl lg:text-4xl">Trg kaže pot sprememb,<br>
+      odločitev in priložnosti. Odnosi<br>
+      in sodelovanja so bistvo rasti<br>
       ter uspešnosti.</p>
   </div>
 </div>
+
 <!-- Investiranje -->
-<div class="bg-black py-10 px-4 md:flex md:flex-col" style="text-align:right; margin-right:15%;">
+<div class="bg-black py-10 px-8 md:flex md:flex-col" style="text-align:right; margin-right:15%;">
   <div class="text-white mb-4">
-    <p class="font-georgia text-lg md:text-3xl lg:text-lg">Investiranje v nepremičnine, projekte,<br>
+    <p class="font-georgia text-xl md:text-3xl lg:text-xl">Investiranje v nepremičnine, projekte,<br>
       potencialna podjetja in njihove izdelke so<br>
       naše ključne investicije</p>
   </div>
 </div>
 
 <!-- delaj pametno-->
-<div class="bg-black py-10 px-4 md:flex md:flex-col md:items-start">
+<div class="bg-black py-12 px-16 md:flex md:flex-col md:items-start">
   <div class="text-white text-left mb-4">
-    <p class="font-georgia text-xl md:text-3xl lg:text-4xl">Delaj pametno, zavestno in</p>
+    <p class="font-georgia text-5xl md:text-3xl lg:text-5xl">Delaj pametno, zavestno in</p>
   </div>
-  <div class="text-white text-left">
-    <p class="font-georgia italic text-xl md:text-3xl lg:text-4xl">ujami pravi trenutek</p>
+  <div class="text-[#D2D0FB] text-left">
+    <p class="font-georgiaI  text-5xl md:text-3xl lg:text-5xl">ujami pravi trenutek</p>
   </div>
 </div>
 
-<!-- vloge + slika-->
+
 
 <!-- sodelovanje -->
-<div class="bg-black py-20 px-8 md:flex md:flex-col">
-  <div class="text-white text-left mb-4">
-    <p class="font-georgia  md:text-3xl lg:text-lg">Sodelovanje z ljudmi, ki so<br>
+<div class="bg-black py-24 px-16 md:flex md:flex-col">
+  <div class="flex flex-wrap ">
+    <img
+      src="src/images/apostrof.png" alt="apostrofa" />
+  </div>
+  <div class="text-white text-left mt-8 mb-4">
+    <p class="font-georgia  text-4xl md:text-3xl lg:text-5xl">Sodelovanje z ljudmi, ki so<br>
       v svojem področju najbolj uspešni,<br>
       je naša največja prednost</p>
   </div>
 </div>
 
+<!-- vloge + slika-->
+<div class="flex items-right py-12">
+  <div class="text-white px-16 text-2xl md:text-xl lg:text-3xl">
+    <div>Z naprednim sistemom</div>
+    <div>dela povezujemo,</div>
+    <div>združujemo in rastemo</div>
+    <div>skupaj ter ustvarjamo</div>
+    <div class="text-[#C1DDBB] font-georgiaI italic">dodano vrednost</div>
+  </div>
+  <div>
+    <img class="h-auto max-w-lg ml-auto"
+        src="src/images/person2.png" alt="Person"/>
+  </div>
+</div>
 <!-- napredni sistem + slika -->
 
 
 <!-- box s številkam -->
 
 <!-- portfolio (trenutko blank)-->
-<div class="bg-black py-40">
-</div>
-<!-- realizacija -->
+<div class="bg-black py-40"></div>
 
+<!-- realizacija -->
 <div class="bg-black py-10 px-4 md:flex md:flex-col">
   <div class="text-white text-center mb-4">
-    <p class="font-georgia text-xl md:text-3xl lg:text-4xl">Uspešna realizacija je</p>
+    <p class="font-georgia text-4xl md:text-3xl lg:text-8xl">Uspešna realizacija je</p>
   </div>
-  <div class="text-blue-100 text-center">
-    <p class="font-georgia italic text-xl md:text-3xl lg:text-4xl">naše vodilo</p>
+  <div class="text-[#D2D0FB] text-center">
+    <p class="font-georgiaI italic text-3xl md:text-3xl lg:text-7xl ">naše vodilo</p>
   </div>
 </div>
 
 <!-- footer -->
-
 <div class="bg-black py-10 px-4 md:flex md:flex-col text-center">
   <div class="text-white text-center mb-4">
-    <p class="font-georgia text-xl md:text-3xl lg:text-lg">Kontakt</p>
+    <p class="font-georgia regular text-xl md:text-lg lg:text-base">info@kanati.si</p>
   </div>
   <div class="text-white text-center">
-    <p class="font-georgia italic text-xl md:text-3xl lg:text-lg">+386 40 123 456</p>
+    <p class="font-georgia text-xl md:text-lg lg:text-base">+386 40 123 456</p>
   </div>
 </div>
+
 <slot />
