@@ -21,6 +21,7 @@
       </div>
       <!--random sponsors -->
       <div></div>
+
       <div class="mt-32"></div>
     </div>
   </div>
@@ -35,25 +36,30 @@
 </div>
 
 
-
-<!-- trg-->
+<!-- trg -->
 <div class="py-10 px-16 md:flex md:flex-col md:items-start">
   <div class="text-white text-left mb-6 pt-32">
-    <p class="font-georgia text-2xl md:text-3xl lg:text-5xl">Trg kaže pot sprememb,<br>
+    <p class="font-georgia text-5vw md:text-3xl lg:text-5xl">Trg kaže pot sprememb,<br>
       odločitev in priložnosti. Odnosi<br>
       in sodelovanja so bistvo rasti<br>
       ter uspešnosti.</p>
   </div>
 </div>
 
+
+
 <!-- Investiranje -->
-<div class="py-10 px-8 md:flex md:flex-col" style="text-align:right; margin-right:15%;">
-  <div class="text-white mb-4">
-    <p class="font-georgia text-xl md:text-3xl lg:text-2xl">Investiranje v nepremičnine, projekte,<br>
+<div class="py-10 px-8 md:flex md:flex-col">
+  <div class="text-white mb-4 text-center md:text-right md:mx-auto md:w-2/3">
+    <p class="font-georgia text-xl md:text-3xl lg:text-2xl">
+      Investiranje v nepremičnine, projekte,<br>
       potencialna podjetja in njihove izdelke so<br>
-      naše ključne investicije</p>
+      naše ključne investicije
+    </p>
   </div>
 </div>
+
+
 
 <!-- delaj pametno-->
 <div class="py-12 px-16 md:flex md:flex-col md:items-start">
