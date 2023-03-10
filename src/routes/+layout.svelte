@@ -39,7 +39,7 @@
 <!-- trg-->
 <div class="py-10 px-16 md:flex md:flex-col md:items-start">
   <div class="text-white text-left mb-6 pt-32">
-    <p class="font-georgia text-2xl md:text-3xl lg:text-4xl">Trg kaže pot sprememb,<br>
+    <p class="font-georgia text-2xl md:text-3xl lg:text-5xl">Trg kaže pot sprememb,<br>
       odločitev in priložnosti. Odnosi<br>
       in sodelovanja so bistvo rasti<br>
       ter uspešnosti.</p>
@@ -49,7 +49,7 @@
 <!-- Investiranje -->
 <div class="py-10 px-8 md:flex md:flex-col" style="text-align:right; margin-right:15%;">
   <div class="text-white mb-4">
-    <p class="font-georgia text-xl md:text-3xl lg:text-xl">Investiranje v nepremičnine, projekte,<br>
+    <p class="font-georgia text-xl md:text-3xl lg:text-2xl">Investiranje v nepremičnine, projekte,<br>
       potencialna podjetja in njihove izdelke so<br>
       naše ključne investicije</p>
   </div>
@@ -58,10 +58,10 @@
 <!-- delaj pametno-->
 <div class="py-12 px-16 md:flex md:flex-col md:items-start">
   <div class="text-white text-left mb-4">
-    <p class="font-georgia text-5xl md:text-3xl lg:text-5xl">Delaj pametno, zavestno in</p>
+    <p class="font-georgia text-5xl md:text-3xl lg:text-6xl">Delaj pametno, zavestno in</p>
   </div>
   <div class="text-[#D2D0FB] text-left">
-    <p class="font-georgiaI  text-5xl md:text-3xl lg:text-5xl">ujami pravi trenutek</p>
+    <p class="font-georgiaI  text-5xl md:text-3xl lg:text-6xl">ujami pravi trenutek</p>
   </div>
 </div>
 
@@ -74,23 +74,25 @@
       src="src/images/apostrof.png" alt="apostrofa" />
   </div>
   <div class="text-left mt-8 mb-4">
-    <p class="font-georgia  text-4xl md:text-3xl lg:text-5xl">Sodelovanje z ljudmi, ki so<br>
-      v svojem področju najbolj uspešni,<br>
-      je naša največja prednost</p>
-  </div>
+    <p class="font-georgia text-4xl md:text-3xl lg:text-5xl" style="line-height: 3rem;">
+      Sodelovanje s KANATI je<br>
+      enostavno, zanesljivo,<br>
+      transparentno in donosno.
+    </p>
+  </div>  
 </div>
 
 <!-- vloge + slika-->
-<div class="flex items-right py-12">
-  <div class="px-16 text-2xl md:text-xl lg:text-3xl">
+<div class="flex items-right py-24">
+  <div class="px-16 text-2xl md:text-xl lg:text-5xl space-y-5">
     <div>Z naprednim sistemom</div>
     <div>dela povezujemo,</div>
     <div>združujemo in rastemo</div>
     <div>skupaj ter ustvarjamo</div>
     <div class="text-[#C1DDBB] font-georgiaI italic">dodano vrednost</div>
   </div>
-  <div>
-    <img class="h-auto max-w-lg ml-auto"
+  <div class="relative flex-1 flex justify-end mt-12">
+    <img class="h-auto max-w-lg absolute right-0 mr-48"
         src="src/images/person2.png" alt="Person"/>
   </div>
 </div>
