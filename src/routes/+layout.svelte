@@ -1,5 +1,7 @@
 <script>
   import "../app.css";
+
+
 </script>
 <!-- vrh strani + logo -->
 <div class="ml-12 mt-6 w-1/6">
@@ -155,6 +157,5 @@
     <p class="font-georgia text-base md:text-lg lg:text-base">+386 40 123 456</p>
   </div>
 </div>
-
 
 <slot />
