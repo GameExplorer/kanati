@@ -1,5 +1,7 @@
 <script>
   import "../app.css";
+
+
 </script>
 <!-- vrh strani + logo -->
 <div class="ml-12 mt-6 w-1/6">
@@ -131,3 +133,4 @@
 </div>
 
 <slot />
+
