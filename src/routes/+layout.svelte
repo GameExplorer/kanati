@@ -68,7 +68,7 @@
 
 
 <!-- delaj pametno-->
-<div class="py-12 px-16 md:flex md:flex-col md:items-start">
+<div class="py-16 px-16 md:flex md:flex-col md:items-start">
   <div class="text-white text-left mb-4">
     <p class="font-georgia text-5xl md:text-3xl lg:text-6xl">Delaj pametno, zavestno in</p>
   </div>
@@ -77,6 +77,22 @@
   </div>
 </div>
 
+<!-- vloge -->
+
+<div class="flex flex-col-reverse lg:flex-row items-center py-24 ml-36">
+  <div>CEO</div>
+  <div>Business Analyst</div>
+  <div>Business Analyst</div>
+  <div>COO  </div>
+  <div class="flex-1 mt-12 lg:mt-0"></div>
+  <div class="flex-1 mt-12 lg:mt-0 flex justify-end items-center">
+    <div class="w-180 h-180 rounded-l-full overflow-hidden">
+      <img class="h-full w-full object-cover"
+          src="src/images/person1.png"
+          alt="Person1"/>
+    </div>
+  </div>
+</div>
 
 
 <!-- sodelovanje -->
