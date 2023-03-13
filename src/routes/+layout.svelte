@@ -1,9 +1,15 @@
 <script>
+// @ts-nocheck
+
   import "../app.css";
 
+  let selected = null;
+
+  function toggle(id) {
+    selected = selected === id ? null : id;
+  }
 
 </script>
-<!-- vrh strani + logo -->
 <div class="ml-12 mt-6 w-1/6">
 <div class="flex flex-wrap items-center">
   <img class="object-cover w-32 sm:w-42 lg:w-44 md:w-42  h-auto mr-4 mt-2" src="src/images/logo.png" alt="logo" />
@@ -37,11 +43,6 @@
     </div>    
   </div>
 </div>
-
-
-
-
-<!-- trg -->
 <div class="py-10 px-8 md:px-16 md:flex md:flex-col md:items-start">
   <div class="text-center md:text-left mb-6 pt-32">
     <p class="font-georgia text-2xl md:text-3xl lg:text-5xl">Trg kaže pot sprememb,<br>
@@ -50,49 +51,91 @@
       ter uspešnosti.</p>
   </div>
 </div>
-
-
-
-
-<!-- Investiranje -->
 <div class="py-10 px-8 md:flex md:flex-col">
-  <div class="text-white mb-4 text-center md:text-right md:mx-auto md:w-2/3">
-    <p class="font-georgia text-xl md:text-3xl lg:text-2xl">
+  <div class="mb-4 text-center md:text-right md:mx-auto md:w-2/3">
+    <p class="font-georgia text-xl md:text-2xl lg:text-3xl -mr-24">
       Investiranje v nepremičnine, projekte,<br>
       potencialna podjetja in njihove izdelke so<br>
       naše ključne investicije
     </p>
   </div>
 </div>
-
-
-
-<!-- delaj pametno-->
 <div class="py-16 px-16 md:flex md:flex-col md:items-start">
-  <div class="text-white text-left mb-4">
-    <p class="font-georgia text-5xl md:text-3xl lg:text-6xl">Delaj pametno, zavestno in</p>
+  <div class="text-left mb-4">
+    <p class="font-georgia text-4xl md:text-5xl lg:text-6xl">Delaj pametno, zavestno in</p>
   </div>
   <div class="text-[#D2D0FB] text-left">
-    <p class="font-georgiaI  text-5xl md:text-3xl lg:text-6xl">ujami pravi trenutek</p>
+    <p class="font-georgiaI text-4xl md:text-5xl lg:text-6xl">ujami pravi trenutek</p>
   </div>
 </div>
+
+
 
 <!-- vloge -->
 
-<div class="flex flex-col-reverse lg:flex-row items-center py-24 ml-36">
-  <div>CEO</div>
-  <div>Business Analyst</div>
-  <div>Business Analyst</div>
-  <div>COO  </div>
-  <div class="flex-1 mt-12 lg:mt-0"></div>
+<div class="flex flex-col-reverse lg:flex-row items-center py-24 ml-32">
+  <div>
+    <div class="mb-4">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div class="cursor-pointer" on:click={() => toggle(1)}>
+        <h1 class="text-2xl">
+          <span class="mr-2"></span>
+          CEO
+        </h1>
+      </div>
+      {#if selected === 1}
+        <p class="mt-2">Prikazan tekst</p>
+      {/if}
+    </div>
+    <hr>
+    <div class="mb-4">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div class="cursor-pointer" on:click={() => toggle(2)}>
+        <h1 class="text-2xl">
+          <span class="mr-2"></span>
+          Business Analyst
+        </h1>
+      </div>
+      {#if selected === 2}
+        <p class="mt-2">buziness</p>
+      {/if}
+    </div>
+    <hr>
+    <div class="mb-4">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div class="cursor-pointer" on:click={() => toggle(3)}>
+        <h1 class="text-2xl">
+          <span class="mr-2"></span>
+          Business Analyst
+        </h1>
+      </div>
+      {#if selected === 3}
+        <p class="mt-2">dsa.</p>
+      {/if}
+    </div>
+    <hr>
+    <div class="mb-4">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
+      <div class="cursor-pointer" on:click={() => toggle(4)}>
+        <h1 class="text-2xl">
+          <span class="mr-2"></span>
+          COO
+        </h1>
+      </div>
+      {#if selected === 4}
+        <p class="mt-2">cook</p>
+      {/if}
+    </div>
+    <hr>
+    
+  </div>
   <div class="flex-1 mt-12 lg:mt-0 flex justify-end items-center">
-    <div class="w-180 h-180 rounded-l-full overflow-hidden">
-      <img class="h-full w-full object-cover"
-          src="src/images/person1.png"
-          alt="Person1"/>
+    <div class="w-180 h-180 rounded-l-full overflow-hidden ml-auto">
+      <img class="h-full w-full object-cover" src="src/images/person1.png" alt="Person1" style="max-width: 100%"/>
     </div>
   </div>
 </div>
+
 
 
 <!-- sodelovanje -->
@@ -102,15 +145,13 @@
       src="src/images/apostrof.png" alt="apostrofa" />
   </div>
   <div class="text-left mt-8 mb-4">
-    <p class="font-georgia text-4xl md:text-3xl lg:text-5xl" style="line-height: 3rem;">
+    <p class="font-georgia text-4xl md:text-5xl lg:text-5xl" style="line-height: 3rem;">
       Sodelovanje s KANATI je<br>
       enostavno, zanesljivo,<br>
       transparentno in donosno.
     </p>
   </div>  
 </div>
-
-<!-- napredni sistem -->
 <div class="flex flex-col-reverse lg:flex-row items-center py-24">
   <div class="flex-1 px-16 text-2xl md:text-3xl lg:text-5xl text-center lg:text-left tracking-tight md:tracking-normal">
     <div>Z naprednim sistemom</div>
@@ -124,11 +165,6 @@
         src="src/images/person2.png" alt="Person"/>
   </div>
 </div>
-
-
-
-
-<!-- box s številkam -->
 <div class="flex items-center justify-center">
   <div class="border border-gray-600 p-8">
     <div class="flex flex-wrap justify-center py-6">
@@ -163,10 +199,8 @@
     <p class="font-georgiaI italic text-3xl md:text-4xl lg:text-7xl">naše vodilo</p>
   </div>
 </div>
-
-<!-- footer -->
 <div class="py-10 px-4 md:flex md:flex-col text-center">
-  <div class="text-center mb-4">
+  <div class="text-center mb-2">
     <p class="font-georgia regular text-base md:text-lg lg:text-base">info@kanati.si</p>
   </div>
   <div class="text-center">
