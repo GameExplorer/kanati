@@ -11,21 +11,21 @@
 
 </script>
 <div class="ml-12 mt-6 w-1/6">
-<div class="flex flex-wrap items-center">
-  <img class="object-cover w-32 sm:w-42 lg:w-44 md:w-42  h-auto mr-4 mt-2" src="src/images/logo.png" alt="logo" />
+  <div class="flex flex-wrap items-center">
+    <img class="object-cover w-32 sm:w-42 lg:w-44 md:w-42  h-auto mr-4 mt-4" src="src/images/logo.png" alt="logo" />
+  </div>
 </div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
-  <div class="border-r-2 pr-4 md:pr-12 border-gray-700">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2 pl-12">
+  <div class="border-r-2 md:pr-12 border-gray-700">
     <div class="px-4 md:px-16 pt-4 text-center md:text-left">
-      <div class="text-white text-2xl md:text-5xl lg:text-5xl pt-16 pb-6 text-center">
+      <div class="text-2xl md:text-5xl lg:text-5xl pt-16 pb-6 text-center">
         <span class="px-2 md:px-12">Svetujemo,</span><br>
         <span class="px-2 md:px-4">investiramo in</span><br> 
         <span class="px-2 -ml-14 md:-ml-2">ustvarjamo</span><span class="font-georgiaI italic text-[#C1DDBB]">možnosti<br></span>
         <span class="px-2 md:px-4 font-georgiaI italic text-[#C1DDBB]">za realizacijo</span>
       </div>
-      <div class="md:mt-0">
-        <img class="mx-auto md:ml-24 w-full md:w-8/12 pb-8" src="src/images/Vector.png" alt="signature"/>
+      <div class="md:mt-0 ml-16">
+        <img class="mx-auto md:ml-24 w-full md:w-7/12 pb-8" src="src/images/Vector.png" alt="signature"/>
       </div>
       
       <!--random sponsors -->
@@ -35,7 +35,7 @@
     </div>
   </div>
   <div>
-    <div class="pt-16 md:pt-36 text-center">
+    <div class="pt-16 pl-32 md:pt-36 text-center">
       <div class="text-2xl md:text-5xl">$ 1.0 M</div>
       <div class="text-gray-300 pb-16">Investiranih do danes</div>
       <div class="text-2xl md:text-5xl">8 - 12%</div>
@@ -68,62 +68,57 @@
     <p class="font-georgiaI text-4xl md:text-5xl lg:text-6xl">ujami pravi trenutek</p>
   </div>
 </div>
-
-
-
-<!-- vloge -->
-
-<div class="flex flex-col-reverse lg:flex-row items-center py-24 ml-32">
+<div class="flex flex-col-reverse lg:flex-row items-center py-24 ml-16">
   <div>
-    <div class="mb-4">
+    <div class="mb-4 pr-96">
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div class="cursor-pointer" on:click={() => toggle(1)}>
-        <h1 class="text-2xl">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl">
           <span class="mr-2"></span>
           CEO
         </h1>
       </div>
       {#if selected === 1}
-        <p class="mt-2">Prikazan tekst</p>
+        <p class="mt-2 ml-2">Prikazan tekst</p>
       {/if}
     </div>
     <hr>
     <div class="mb-4">
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div class="cursor-pointer" on:click={() => toggle(2)}>
-        <h1 class="text-2xl">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl">
           <span class="mr-2"></span>
           Business Analyst
         </h1>
       </div>
       {#if selected === 2}
-        <p class="mt-2">buziness</p>
+        <p class="mt-2 ml-2">buziness sdMicroSD</p>
       {/if}
     </div>
     <hr>
     <div class="mb-4">
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div class="cursor-pointer" on:click={() => toggle(3)}>
-        <h1 class="text-2xl">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl pt-4">
           <span class="mr-2"></span>
           Business Analyst
         </h1>
       </div>
       {#if selected === 3}
-        <p class="mt-2">dsa.</p>
+        <p class="mt-2 ml-2">dsa.</p>
       {/if}
     </div>
     <hr>
     <div class="mb-4">
       <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div class="cursor-pointer" on:click={() => toggle(4)}>
-        <h1 class="text-2xl">
+        <h1 class="text-4xl">
           <span class="mr-2"></span>
           COO
         </h1>
       </div>
       {#if selected === 4}
-        <p class="mt-2">cook</p>
+        <p class="mt-2 ml-2">cook</p>
       {/if}
     </div>
     <hr>
@@ -135,10 +130,6 @@
     </div>
   </div>
 </div>
-
-
-
-<!-- sodelovanje -->
 <div class="py-24 px-16 md:flex md:flex-col">
   <div class="flex flex-wrap ">
     <img
@@ -184,13 +175,8 @@
   </div>
 </div>
 
-
-
-
 <!-- portfolio (trenutko blank)-->
 <div class="py-40"></div>
-
-<!-- realizacija -->
 <div class="py-10 px-4 md:flex md:flex-col">
   <div class="text-center mb-4">
     <p class="font-georgia text-4xl md:text-5xl lg:text-8xl">Uspešna realizacija je</p>
