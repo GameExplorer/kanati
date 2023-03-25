@@ -1,8 +1,8 @@
 <script>
     import "../app.css";
-  </script>
+</script>
   
-  <svelte:head>
+<svelte:head>
 	<title>Kanati</title>
 	<meta name="Kanati" content="Svetovanje in Investiranje" />
 </svelte:head>
