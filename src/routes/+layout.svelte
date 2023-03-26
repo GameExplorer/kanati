@@ -20,7 +20,7 @@
     <div class="border-0 border-b md:border-0 md:border-r-2 border-gray-700 m-auto w-10/12 md:w-auto">
         <div class="text-4xl md:text-5xl px-12 py-8 text-center">
             <div>Svetujemo, investiramo in ustvarjamo <span class="italic text-[#CBC4B7]">možnosti za realizacijo.</span> </div>
-            <img class="hidden md:block w-10/12 m-auto pt-8" src="src/images/underline.svg" alt="signature"/>
+            <img class="w-10/12 m-auto pt-8" src="src/images/underline.svg" alt="signature"/>
             <!--random sponsors -->
             <div></div>
         </div>
@@ -58,80 +58,80 @@
     <span class="text-[#D2D0FB] font-georgiaI text-4xl md:text-5xl lg:text-6xl">ujami pravi trenutek</span>
 </div>
 
+<div class="h-[100px]"></div>
+
 <!-- TITLES -->
-<div class="flex flex-col-reverse lg:flex-row items-center py-24 ml-16">
-<div>
-    <div class="mb-4 pr-96">
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <div class="cursor-pointer" on:click={() => toggle(1)}>
-            <h1 class="text-2xl md:text-3xl lg:text-4xl">
-                CEO
-            </h1>
+<div class="mx-12 md:mr-0 grid grid-cols-1 md:grid-cols-3">
+    <div class="flex flex-col justify-center col-start-1 col-span-1">
+        <div>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div class="cursor-pointer" on:click={() => toggle(1)}>
+                <h1 class="text-3xl lg:text-4xl mb-2">
+                    CEO
+                </h1>
+            </div>
+            {#if selected === 1}
+                <p class="my-4">
+                    Manage all of your leads and activities in one intuitive interface.
+                    Optimized workflows make it fast and easy to see what you need to act
+                    on next to get the most out of your pipeline and close more deals.
+                </p>
+            {/if}
         </div>
-        {#if selected === 1}
-            <p class="mt-2 ml-2">
-                Manage all of your leads and activities in one intuitive interface.
-                Optimized workflows make it fast and easy to see what you need to act
-                on next to get the most out of your pipeline and close more deals.
-            </p>
-        {/if}
-    </div>
-    <hr>
-    <div class="mb-4">
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <div class="cursor-pointer" on:click={() => toggle(2)}>
-            <h1 class="text-2xl md:text-3xl lg:text-4xl">
-                Business Analyst
-            </h1>
+        <hr>
+        <div class="mt-4">
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div class="cursor-pointer" on:click={() => toggle(2)}>
+                <h1 class="text-3xl lg:text-4xl mb-2">
+                    Business Analyst
+                </h1>
+            </div>
+            {#if selected === 2}
+                <p class="my-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            {/if}
         </div>
-        {#if selected === 2}
-            <p class="mt-2 ml-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        {/if}
-    </div>
-    <hr>
-    <div class="mb-4">
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <div class="cursor-pointer" on:click={() => toggle(3)}>
-            <h1 class="text-2xl md:text-3xl lg:text-4xl pt-4">
-                Business Analyst
-            </h1>
+        <hr>
+        <div class="mt-4">
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div class="cursor-pointer" on:click={() => toggle(3)}>
+                <h1 class="text-3xl lg:text-4xl mb-2">
+                    Business Analyst
+                </h1>
+            </div>
+            {#if selected === 3}
+                <p class="my-4">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            {/if}
         </div>
-        {#if selected === 3}
-            <p class="mt-2 ml-2">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-            </p>
-        {/if}
-    </div>
-    <hr>
-    <div class="mb-4">
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <div class="cursor-pointer" on:click={() => toggle(4)}>
-            <h1 class="text-4xl">
-                COO
-            </h1>
+        <hr>
+        <div class="mt-4">
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div class="cursor-pointer" on:click={() => toggle(4)}>
+                <h1 class="text-3xl lg:text-4xl mb-2">
+                    COO
+                </h1>
+            </div>
+            {#if selected === 4}
+                <p class="my-4">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum doloreeu
+                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            {/if}
         </div>
-        {#if selected === 4}
-            <p class="mt-2 ml-2">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum doloreeu
-                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        {/if}
-    </div>
-    <hr>
+        <hr>
     </div>
 
     <!-- IMAGE -->
-    <div class="flex-1 mt-12 lg:mt-0 flex justify-end items-center">
-        <div class="w-180 h-180 rounded-l-full overflow-hidden ml-auto">
-            <img class="h-full w-full object-cover" src="src/images/person1.png" alt="Person1" style="max-width: 100%"/>
-        </div>
-    </div>
+    <img class="col-start-3 hidden md:block rounded-l-full ml-auto w-180 h-180 object-cover" src="src/images/person1.png" alt="Person1" style="max-width: 100%"/>
 </div>
+
+<div class="h-[100px]"></div>
 
 <!-- APOSTROF IN SODELOVANJE S KANATI -->
 <div class="mx-12">
@@ -143,7 +143,7 @@
     </div>
 </div>
 
-<div class="h-[150px]"></div>
+<div class="h-[100px]"></div>
 
 <!-- Z NAPREDNIM SISTEMOM... -->
 <div class="flex flex-col-reverse lg:flex-row items-center">
@@ -157,7 +157,7 @@
     </div>
 </div>
 
-<div class="h-[150px]"></div>
+<div class="h-[100px]"></div>
 
 <!-- TABELA -->
 <div class="flex justify-center">
@@ -178,11 +178,11 @@
 </div>
 
 <!-- portfolio (trenutko blank)-->
-<div class="h-[150px]"></div>
+<div class="h-[100px]"></div>
 
 <!-- USPESNA REALIZACIJA JE NASE VODILO-->
-<div class="text-center">
-    <div class="text-4xl md:text-6xl lg:text-8xl">Uspešna realizacija je</div>
+<div class="text-center mx-12">
+    <div class="text-4xl md:text-6xl lg:text-7xl">Uspešna realizacija je</div>
     <div class="font-georgiaI text-[#D2D0FB] italic text-3xl md:text-5xl lg:text-7xl">naše vodilo</div>
 </div>
 
@@ -190,8 +190,8 @@
 
 <!-- FOOTER -->
 <div class="pb-12 text-center md:text-lg lg:text-base">
-    <div>info@kanati.si</div>
-    <div>+386 40 123 456</div>
+    <a href="mailto:info@kanati.si">info@kanati.si</a><br>
+    <a href="tel:+386 40 123 456">+386 40 123 456</a>
 </div>
 
 <slot />
