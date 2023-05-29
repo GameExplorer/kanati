@@ -51,7 +51,6 @@
 
 <div class="h-[300px]"></div>
 
-
 <!-- DELAJ PAMETNO... -->
 <div class="px-16 text-4xl md:text-5xl lg:text-6xl text-left mb-4">
     Delaj pametno, zavestno in<br class="hidden md:block">
