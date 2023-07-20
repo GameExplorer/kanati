@@ -11,7 +11,7 @@
 </script>
 
 <!-- LOGO -->
-<img class="w-[150px] md:w-[200px] object-cover m-12" src="src/images/logo.png" alt="logo" />
+<img class="w-[150px] md:w-[200px] object-cover m-12" src="/images/logo.png" alt="logo" />
 
 <div class="h-[25px] md:h-[50px]"></div>
 
@@ -19,8 +19,8 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
     <div class="border-0 border-b md:border-0 md:border-r-2 border-gray-700 m-auto w-10/12 md:w-auto">
         <div class="text-4xl md:text-5xl px-12 py-8 text-center">
-            <div>Svetujemo, investiramo in ustvarjamo <span class="italic text-[#CBC4B7]">možnosti za rast.</span> </div>
-            <img class="w-10/12 m-auto pt-8" src="src/images/underline.svg" alt="signature"/>
+            <div>Svetujemo, investiramo in ustvarjamo <span class="font-georgiaI text-[#CBC4B7]">možnosti za rast.</span> </div>
+            <img class="w-10/12 m-auto pt-8" src="/images/underline.svg" alt="signature"/>
             <!--random sponsors -->
             <div></div>
         </div>
@@ -127,14 +127,14 @@
     </div>
 
     <!-- IMAGE -->
-    <img class="col-start-3 hidden md:block rounded-l-full ml-auto w-180 h-180 object-cover" src="src/images/person1.png" alt="Person1" style="max-width: 100%"/>
+    <img class="col-start-3 hidden md:block rounded-l-full ml-auto w-180 h-180 object-cover" src="/images/person1.png" alt="Person1" style="max-width: 100%"/>
 </div>
 
 <div class="h-[100px]"></div>
 
 <!-- APOSTROF IN SODELOVANJE S KANATI -->
 <div class="mx-12">
-    <img class="mb-4" src="src/images/apostrophe.svg" alt="apostrofa" />
+    <img class="mb-4" src="/images/apostrophe.svg" alt="apostrofa" />
     <div class="text-4xl md:text-5xl">
         Sodelovanje s KANATI je<br class="hidden md:block">
         enostavno, zanesljivo,<br class="hidden md:block">
@@ -148,11 +148,11 @@
 <div class="flex flex-col-reverse lg:flex-row items-center">
     <div class="flex-1 mx-16 text-4xl lg:text-5xl tracking-tight">
         Z naprednim sistemom dela povezujemo, združujemo in rastemo skupaj ter ustvarjamo<br>
-        <span class="text-[#C1DDBB] italic">dodano vrednost</span>
+        <span class="text-[#C1DDBB] font-georgiaI">dodano vrednost</span>
     </div>
     <!-- IMAGE -->
     <div class="flex-1 mb-12 lg:mb-0 mx-12">
-        <img class="object-cover max-w-[400px] mx-auto" src="src/images/person2.png" alt="Person"/>
+        <img class="object-cover max-w-[400px] mx-auto" src="/images/person2.png" alt="Person"/>
     </div>
 </div>
 
@@ -182,7 +182,7 @@
 <!-- USPESNA REALIZACIJA JE NASE VODILO-->
 <div class="text-center mx-12">
     <div class="text-4xl md:text-6xl lg:text-7xl">Konstantna rast je</div>
-    <div class="font-georgiaI text-[#D2D0FB] italic text-3xl md:text-5xl lg:text-7xl">naše vodilo</div>
+    <div class="font-georgiaI text-[#D2D0FB] italic text-4xl md:text-5xl lg:text-7xl">naše vodilo</div>
 </div>
 
 <div class="h-[50px]"></div>
