@@ -19,7 +19,7 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
     <div class="border-0 border-b md:border-0 md:border-r-2 border-gray-700 m-auto w-10/12 md:w-auto">
         <div class="text-4xl md:text-5xl px-12 py-8 text-center">
-            <div>Svetujemo, investiramo in ustvarjamo <span class="italic text-[#CBC4B7]">možnosti za realizacijo.</span> </div>
+            <div>Svetujemo, investiramo in ustvarjamo <span class="italic text-[#CBC4B7]">možnosti za rast.</span> </div>
             <img class="w-10/12 m-auto pt-8" src="src/images/underline.svg" alt="signature"/>
             <!--random sponsors -->
             <div></div>
@@ -29,7 +29,7 @@
     <div class="flex flex-col text-center justify-center py-8">
         <div class="text-5xl">$ 1.0 M</div>
         <div class="text-gray-300 pb-16">Investiranih do danes</div>
-        <div class="text-5xl">8 - 12%</div>
+        <div class="text-5xl">8 - 10%</div>
         <div class="text-gray-300">letni optimalni<br> doprinos</div>
     </div>
 </div>
@@ -181,7 +181,7 @@
 
 <!-- USPESNA REALIZACIJA JE NASE VODILO-->
 <div class="text-center mx-12">
-    <div class="text-4xl md:text-6xl lg:text-7xl">Uspešna realizacija je</div>
+    <div class="text-4xl md:text-6xl lg:text-7xl">Konstantna rast je</div>
     <div class="font-georgiaI text-[#D2D0FB] italic text-3xl md:text-5xl lg:text-7xl">naše vodilo</div>
 </div>
 
