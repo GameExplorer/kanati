@@ -51,22 +51,18 @@
 <!-- TRG KAZE POT SPREMEMB -->
 <div class="max-w-[800px] text-4xl md:text-5xl px-12">
     Trg kaže pot sprememb,
-    odločitev in priložnosti. Odnosi
-    in sodelovanja so bistvo rasti
-    ter uspešnosti.
+    odločitev in priložnosti.
 </div>
 <div class="max-w-[800px] float-right text-right text-3xl md:text-4xl p-12">
-    Svetujemo in investiramo v nepremičnine in premičnine,
-    v podjetja, ki imajo lastne izdelke ali v podjetja,
-    ki potrebujejo večjo likvidnost za ustvarjanje višje dodane vrednosti.
+    Svetujemo in investiramo v nepremičnine, premičnine, v podjetja z lastnimi izdelki ali podjetja, ki potrebujejo hitro likvidnost za ustvarjanje večje dodane vrednosti.
 </div>
 
 <div class="h-[300px]"></div>
 
 <!-- DELAJ PAMETNO... -->
-<div class="px-16 text-4xl md:text-5xl lg:text-6xl text-left mb-4">
-    Delaj pametno, zavestno in<br class="hidden md:block">
-    <span class="text-[#D2D0FB] font-georgiaI text-4xl md:text-5xl lg:text-6xl">čakamo pravi trenutek</span>
+<div class="px-16 text-4xl md:text-5xl text-left mb-4">
+    Delamo pametno, zavestno in<br class="hidden md:block">
+    <span class="text-[#D2D0FB] font-georgiaI text-4xl md:text-5xl">čakamo pravi trenutek.</span>
 </div>
 
 <div class="h-[100px]"></div>
@@ -143,8 +139,8 @@
     <img class="mb-4" src="/images/apostrophe.svg" alt="apostrofa" />
     <div class="text-4xl md:text-5xl">
         Sodelovanje s KANATI je<br class="hidden md:block">
-        enostavno, hitro, zanesljivo,<br class="hidden md:block">
-        transparentno in lahko tudi dolgoročno.
+        enostavno, hitro, zanesljivo<br class="hidden md:block">
+        in transparentno.
     </div>
 </div>
 
@@ -165,7 +161,7 @@
 <div class="h-[100px]"></div>
 
 <!-- TABELA -->
-<div class="flex justify-center">
+<!-- <div class="flex justify-center">
     <div class="grid grid-cols-1 md:grid-cols-3 mx-12 border border-gray-600 p-8 w-3/5 md:w-full">
         <div class="text-center pb-4 md:p-0 border-b md:border-0 md:border-r border-gray-600">
             <div class="text-6xl font-bold">12</div>
@@ -180,15 +176,17 @@
             <div class="text-2xl lg:text-xl text-gray-400">Investing</div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- portfolio (trenutno blank)-->
 <div class="h-[100px]"></div>
 
 <!-- USPESNA REALIZACIJA JE NASE VODILO-->
 <div class="text-center mx-12">
-    <div class="text-4xl md:text-6xl lg:text-7xl">Konstantna rast je</div>
-    <div class="font-georgiaI text-[#D2D0FB] italic text-4xl md:text-5xl lg:text-7xl">naše vodilo</div>
+    <div class="text-4xl md:text-5xl">
+        Konstantna rast je <span class="font-georgiaI text-[#D2D0FB] italic">naše vodilo</span>
+        <img class="xl:w-5/12 w-8/12 m-auto pt-8" src="/images/underline.svg" alt="signature"/>
+    </div>
 </div>
 
 <div class="h-[50px]"></div>
