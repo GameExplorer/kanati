@@ -107,7 +107,7 @@
                 <p class="my-4">
                     <b>Vesna Stipetić</b> ima večletne izkušnje na področju operative.
                     Skrbi za vso potrebno dokumentacijo, operativni del posla in komunikacijo.
-                    Vodi operativni del od pričetka sodelovanja do končne realizacjje posla.
+                    Vodi operativni del od pričetka sodelovanja do končne realizacije posla.
                 </p>
             {/if}
         </div>
@@ -116,7 +116,7 @@
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <div class="cursor-pointer" on:click={() => toggle(3)}>
                 <h1 class="text-3xl lg:text-4xl mb-2">
-                    Business Analyst
+                    Poslovni analitik
                 </h1>
             </div>
             {#if selected === 3}
@@ -129,7 +129,7 @@
     </div>
 
     <!-- IMAGE -->
-    <img class="col-start-3 hidden md:block rounded-l-full ml-auto w-180 h-180 object-cover" src="/images/person1.png" alt="Person1" style="max-width: 100%"/>
+    <img class="col-start-3 hidden md:block rounded-l-full ml-auto w-180 h-180 object-cover" src="/images/busy-person.jpg" alt="Person1" style="max-width: 100%"/>
 </div>
 
 <div class="h-[100px]"></div>
@@ -148,13 +148,13 @@
 
 <!-- Z NAPREDNIM SISTEMOM... -->
 <div class="flex flex-col-reverse lg:flex-row items-center">
-    <div class="flex-1 mx-16 text-4xl lg:text-5xl tracking-tight">
+    <div class="flex-1 mx-12 text-4xl lg:text-5xl tracking-tight">
         Z naprednim sistemom dela povezujemo, združujemo in rastemo skupaj ter ustvarjamo<br>
         <span class="text-[#C1DDBB] font-georgiaI">dodano vrednost</span>
     </div>
     <!-- IMAGE -->
     <div class="flex-1 mb-12 lg:mb-0 mx-12">
-        <img class="object-cover max-w-[400px] mx-auto" src="/images/person2.png" alt="Person"/>
+        <img class="object-cover max-w-[400px] mx-auto" src="/images/handshake.png" alt="Person"/>
     </div>
 </div>
 
