@@ -80,18 +80,17 @@
             {#if selected === 1}
                 <p class="my-4">
                     <b>Iztok Rekelj - direktor / manager </b><br>
-                    Večletne izkušnje na področju sektorja financiranja,
-                    poslovnega svetovanja in investiranja. Poslovna pot se je začela leta 2008,
-                    ko se je srečal z zavarovalništvom, leta 2009 spoznal področje skladov,
-                    plemenitih kovin in drugih inštrumentov investiranja,
-                    2010 odprl prvo podjetje za poslovno svetovanje in investiranje.
+                    Večletne izkušnje na področju sektorja financiranja, 
+                    poslovnega svetovanja in investiranja. Poslovna pot se je začela leta 2008, 
+                    ko se je srečal z zavarovalništvom, leta 2009 spoznal področje skladov, 
+                    plemenitih kovin in drugih inštrumentov investiranja, 
+                    2010 odprl prvo podjetje za poslovno svetovanje in investiranje. 
                     Nadaljeval je pot investiranja skozi bančni sektor, javnih razpisov in vlaganja tujega ter lastnega kapitala.<br><br>
                     <b>Žiga Kosmatin - odvetnik / partner</b><br>
-                    Večletne izkušnje na področju pravnega svetovanja,
-                    zastopanja in vodenja poslov. Svojo pot začel leta
-                    x v odvetniški pisarni Senica, kjer je svoje izkušnje nabiral x let.
-                    Skrbel za …. In nato leta x odprl lastno odvetniško pisarno
-                    ter kasneje tudi postal partner podjetja KANATI d.o.o..
+                    Večletne izkušnje na področju pravnega svetovanja, zastopanja in vodenja poslov. 
+                    Svojo pot začel leta 2016 v Odvetniška pisarna Senica & partnerji, d.o.o., kjer je svoje izkušnje nabiral 6 let. 
+                    Deloval je na gospodarskem oddelku pisarne. Leta 2022 je odprl lastno odvetniško pisarno ter 
+                    kasneje tudi postal partner podjetja KANATI d.o.o.
                 </p>
             {/if}
         </div>
